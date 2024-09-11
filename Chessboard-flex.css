@@ -1,0 +1,22 @@
+.chessboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 640px;
+}
+
+.peachpuff, .brown {
+    flex: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.peachpuff {
+    background-color: peachpuff;
+}
+
+.brown {
+    background-color: brown;
+}
